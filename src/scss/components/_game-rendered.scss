@@ -1,0 +1,7 @@
+.games-rendered {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(30rem, 50rem));
+  column-gap: 2rem;
+  justify-content: center;
+}

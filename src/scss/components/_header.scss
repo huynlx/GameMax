@@ -1,0 +1,60 @@
+.header {
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @include mq($tablet) {
+    margin: 2rem 0;
+  }
+
+  &__logo {
+    flex: 0 0 10%;
+    margin-right: 4rem;
+    font-size: 2.4rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+
+    & > * {
+      color: #fff;
+    }
+
+    @include mq($tablet) {
+      margin-right: auto;
+    }
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__info {
+      margin-right: 1rem;
+    }
+
+    &__avatar {
+      background-size: cover;
+      background-position: center center;
+      width: 4rem;
+      height: 4rem;
+      background-color: #fff;
+      border-radius: 10rem;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.6rem;
+    }
+
+    &__username {
+      margin-left: 0.6rem;
+      font-size: 1.6rem;
+      font-weight: 400;
+
+      @include mq($tablet) {
+        display: none;
+      }
+    }
+  }
+}

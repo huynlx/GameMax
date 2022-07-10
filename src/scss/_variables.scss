@@ -1,0 +1,18 @@
+:root {
+  --color-dark: #151515;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+  --color-pink: #d17eef;
+}
+
+$desktop: desktop;
+$laptop: laptop;
+$tablet: tablet;
+$phablet: phablet;
+$mobile: mobile;
+
+$header-height: 10rem;
+$screen-max-width: 166rem;

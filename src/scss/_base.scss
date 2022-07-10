@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  @include mq($desktop) {
+    font-size: 55%;
+  }
+
+  @include mq($laptop) {
+    font-size: 50%;
+  }
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: var(--color-dark);
+  color: #fff;
+}
+
+.App {
+  max-width: $screen-max-width;
+  padding: 0 5rem;
+  margin: 0 auto;
+}
+
+.column {
+  margin-top: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+  @include mq($tablet) {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+}
+
+.heading-1,
+.heading-2,
+.heading-3 {
+  color: var(--color-grey-dark-3);
+}
+
+.heading-1 {
+  font-size: 2.2rem;
+}
+
+.heading-2 {
+  font-size: 1.8rem;
+}
+
+.heading-3 {
+  font-size: 1.4rem;
+}
+
+.btn {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: currentColor;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.btn-light {
+  color: var(--color-dark);
+  background-color: #fff;
+}
+
+.btn-ouline-light {
+  border: 1px solid #fff;
+}
+
+.footer {
+  padding: 2rem 0;
+  font-size: 1.8rem;
+  text-align: right;
+}

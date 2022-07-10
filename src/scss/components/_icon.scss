@@ -1,0 +1,51 @@
+.icon {
+  box-sizing: content-box;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+
+  &--play {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    display: block;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  &--like {
+    color: var(--color-grey-dark-2);
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+
+    &:hover {
+      transition: 0.2s;
+      color: var(--color-pink);
+    }
+  }
+
+  &--liked {
+    color: var(--color-pink);
+  }
+
+  &--logout {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  &--loading {
+    margin-right: 0.6rem;
+    animation: icon-loading 1s infinite linear;
+
+    @keyframes icon-loading {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}
