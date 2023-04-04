@@ -37,7 +37,7 @@ const Header = ({ changeRoute, logOut, currentUser }) => {
     <header className="header">
       <h1 className="header__logo">
         <CustomLink path={GAMES_PATH} changeRoute={changeRoute}>
-          RAWGC
+          GAMEMAX
         </CustomLink>
       </h1>
       <div className="search-bar">
