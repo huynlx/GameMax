@@ -1,6 +1,6 @@
 ### GAME MAX
 
-#### Live demo [here](https://gamemax-huynh.ga/)
+#### Live demo [here](https://rawg-huynh.web.app)
 
 #### Usage
 
