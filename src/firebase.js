@@ -4,13 +4,13 @@ import 'firebase/firebase-firestore';
 import 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBTbbP642TMgOfs1ajZ5V4opIiM-wlGpVg",
-  authDomain: "rawg-huynh.firebaseapp.com",
-  projectId: "rawg-huynh",
-  storageBucket: "rawg-huynh.appspot.com",
-  messagingSenderId: "138751560759",
-  appId: "1:138751560759:web:d779d413b47149eb08c3b2",
-  measurementId: "G-06QW2EHHC3"
+  apiKey: 'AIzaSyBTbbP642TMgOfs1ajZ5V4opIiM-wlGpVg',
+  authDomain: 'rawg-huynh.firebaseapp.com',
+  projectId: 'rawg-huynh',
+  storageBucket: 'rawg-huynh.appspot.com',
+  messagingSenderId: '138751560759',
+  appId: '1:138751560759:web:d779d413b47149eb08c3b2',
+  measurementId: 'G-06QW2EHHC3'
 };
 
 class Firebase {
