@@ -1,4 +1,4 @@
-# rawg-client
+GAME MAX
 
 ### React + Redux + Firebase + RAWG API.
 
