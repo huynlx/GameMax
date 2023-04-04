@@ -1,7 +1,5 @@
 ### GAME MAX
 
-### React + Redux + Firebase + RAWG API.
-
 #### Live demo [here](https://gamemax-huynh.ga/)
 
 #### Usage
