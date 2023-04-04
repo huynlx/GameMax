@@ -1,0 +1,2 @@
+(this["webpackJsonpgame-max"]=this["webpackJsonpgame-max"]||[]).push([[8],{164:function(e,a,n){"use strict";n.r(a);var t=n(1),l=n.n(t),s=n(160);a.default=function(){return l.a.createElement("div",{className:"not-found"},l.a.createElement("div",{className:"not-found__404"},l.a.createElement("span",null,"4"),l.a.createElement(s.a,null),l.a.createElement("span",null,"4")),l.a.createElement("span",{className:"not-found__title"},"Page not found"))}}}]);
+//# sourceMappingURL=8.cdbf99b1.chunk.js.map

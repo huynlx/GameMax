@@ -1,0 +1,2 @@
+(this["webpackJsonpgame-max"]=this["webpackJsonpgame-max"]||[]).push([[9],{162:function(t,e,a){"use strict";a.r(e);var c=a(2),n=a(52),s=a(53),b=a(73),i=a(96);e.default=Object(s.b)((function(t){return Object(c.a)({},Object(i.h)(t))}),{signUp:b.g})(n.g)}}]);
+//# sourceMappingURL=9.ca6b147f.chunk.js.map
