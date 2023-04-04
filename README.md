@@ -1,4 +1,4 @@
-GAME MAX
+### GAME MAX
 
 ### React + Redux + Firebase + RAWG API.
 
